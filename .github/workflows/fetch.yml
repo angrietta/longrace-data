@@ -1,0 +1,27 @@
+name: Weekly data fetch
+
+on:
+  schedule:
+    - cron: '0 18 * * 0'   # 매주 월요일 새벽 3시 (한국 시간) = 일요일 18:00 UTC
+  workflow_dispatch:        # Actions 탭에서 'Run workflow' 버튼으로 수동 실행
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch data
+        run: python scripts/fetch.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "변경 없음"; else git commit -m "data: weekly fetch $(date -u +%Y-%m-%d)" && git push; fi
