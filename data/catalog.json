@@ -1,0 +1,400 @@
+{
+ "fetched_at": "2026-10-17T13:59Z",
+ "indicators": [
+  {
+   "name": "gdp_per_capita_usd",
+   "source": "World Bank",
+   "id": "NY.GDP.PCAP.CD",
+   "unit": "usd_nominal",
+   "rows": 11764,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD"
+  },
+  {
+   "name": "gdp_per_capita_ppp",
+   "source": "World Bank",
+   "id": "NY.GDP.PCAP.PP.CD",
+   "unit": "usd_ppp",
+   "rows": 7020,
+   "years": [
+    1990,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD"
+  },
+  {
+   "name": "gdp_usd",
+   "source": "World Bank",
+   "id": "NY.GDP.MKTP.CD",
+   "unit": "usd_nominal",
+   "rows": 11764,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+  },
+  {
+   "name": "population",
+   "source": "World Bank",
+   "id": "SP.POP.TOTL",
+   "unit": "count",
+   "rows": 14292,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  {
+   "name": "life_expectancy",
+   "source": "World Bank",
+   "id": "SP.DYN.LE00.IN",
+   "unit": "years",
+   "rows": 14071,
+   "years": [
+    1960,
+    2024
+   ],
+   "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+  },
+  {
+   "name": "fertility_rate",
+   "source": "World Bank",
+   "id": "SP.DYN.TFRT.IN",
+   "unit": "births_per_woman",
+   "rows": 14073,
+   "years": [
+    1960,
+    2024
+   ],
+   "url": "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN"
+  },
+  {
+   "name": "under5_mortality",
+   "source": "World Bank",
+   "id": "SH.DYN.MORT",
+   "unit": "per_1000",
+   "rows": 11861,
+   "years": [
+    1960,
+    2024
+   ],
+   "url": "https://data.worldbank.org/indicator/SH.DYN.MORT"
+  },
+  {
+   "name": "urban_share",
+   "source": "World Bank",
+   "id": "SP.URB.TOTL.IN.ZS",
+   "unit": "pct",
+   "rows": 14322,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS"
+  },
+  {
+   "name": "internet_users_share",
+   "source": "World Bank",
+   "id": "IT.NET.USER.ZS",
+   "unit": "pct",
+   "rows": 6224,
+   "years": [
+    1990,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+  },
+  {
+   "name": "electricity_access",
+   "source": "World Bank",
+   "id": "EG.ELC.ACCS.ZS",
+   "unit": "pct",
+   "rows": 6747,
+   "years": [
+    1990,
+    2024
+   ],
+   "url": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS"
+  },
+  {
+   "name": "unemployment_rate",
+   "source": "World Bank",
+   "id": "SL.UEM.TOTL.ZS",
+   "unit": "pct",
+   "rows": 6531,
+   "years": [
+    1991,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS"
+  },
+  {
+   "name": "inflation",
+   "source": "World Bank",
+   "id": "FP.CPI.TOTL.ZG",
+   "unit": "pct",
+   "rows": 9151,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+  },
+  {
+   "name": "exports_share_gdp",
+   "source": "World Bank",
+   "id": "NE.EXP.GNFS.ZS",
+   "unit": "pct",
+   "rows": 9029,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/NE.EXP.GNFS.ZS"
+  },
+  {
+   "name": "education_spending_gdp",
+   "source": "World Bank",
+   "id": "SE.XPD.TOTL.GD.ZS",
+   "unit": "pct",
+   "rows": 5125,
+   "years": [
+    1970,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+  },
+  {
+   "name": "health_spending_gdp",
+   "source": "World Bank",
+   "id": "SH.XPD.CHEX.GD.ZS",
+   "unit": "pct",
+   "rows": 4562,
+   "years": [
+    2000,
+    2024
+   ],
+   "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+  },
+  {
+   "name": "military_spending_gdp",
+   "source": "World Bank",
+   "id": "MS.MIL.XPND.GD.ZS",
+   "unit": "pct",
+   "rows": 8187,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+  },
+  {
+   "name": "co2_per_capita_t",
+   "source": "World Bank",
+   "id": "EN.GHG.CO2.PC.CE.AR5",
+   "unit": "other",
+   "rows": 11165,
+   "years": [
+    1970,
+    2024
+   ],
+   "url": "https://data.worldbank.org/indicator/EN.GHG.CO2.PC.CE.AR5"
+  },
+  {
+   "name": "gini_index",
+   "source": "World Bank",
+   "id": "SI.POV.GINI",
+   "unit": "index",
+   "rows": 2434,
+   "years": [
+    1963,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SI.POV.GINI"
+  },
+  {
+   "name": "age65_share",
+   "source": "World Bank",
+   "id": "SP.POP.65UP.TO.ZS",
+   "unit": "pct",
+   "rows": 14322,
+   "years": [
+    1960,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS"
+  },
+  {
+   "name": "tertiary_enrollment",
+   "source": "World Bank",
+   "id": "SE.TER.ENRR",
+   "unit": "pct",
+   "rows": 5353,
+   "years": [
+    1970,
+    2025
+   ],
+   "url": "https://data.worldbank.org/indicator/SE.TER.ENRR"
+  },
+  {
+   "name": "owid_life_expectancy",
+   "source": "Our World in Data",
+   "id": "life-expectancy",
+   "column": "life_expectancy_0",
+   "unit": "years",
+   "unit_note": "years",
+   "rows": 19452,
+   "years": [
+    1543,
+    2023
+   ],
+   "url": "https://ourworldindata.org/grapher/life-expectancy"
+  },
+  {
+   "name": "mean_years_schooling",
+   "source": "Our World in Data",
+   "id": "mean-years-of-schooling-long-run",
+   "column": "mf_youth_and_adults__15_64_years__average_years_of_education",
+   "unit": "years",
+   "unit_note": "years",
+   "rows": 3511,
+   "years": [
+    1870,
+    2020
+   ],
+   "url": "https://ourworldindata.org/grapher/mean-years-of-schooling-long-run"
+  },
+  {
+   "name": "gdp_per_capita_maddison",
+   "source": "Our World in Data",
+   "id": "gdp-per-capita-maddison-project-database",
+   "column": "gdp_per_capita",
+   "unit": "usd_ppp",
+   "unit_note": "international-$ in 2011 prices",
+   "rows": 20934,
+   "years": [
+    1,
+    2022
+   ],
+   "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database"
+  },
+  {
+   "name": "hdi",
+   "source": "Our World in Data",
+   "id": "human-development-index",
+   "column": "hdi__sex_total",
+   "unit": "index",
+   "unit_note": "",
+   "rows": 5940,
+   "years": [
+    1990,
+    2023
+   ],
+   "url": "https://ourworldindata.org/grapher/human-development-index"
+  },
+  {
+   "name": "life_satisfaction",
+   "source": "Our World in Data",
+   "id": "happiness-cantril-ladder",
+   "column": "cantril_ladder_score",
+   "unit": "index",
+   "unit_note": "",
+   "rows": 2089,
+   "years": [
+    2011,
+    2025
+   ],
+   "url": "https://ourworldindata.org/grapher/happiness-cantril-ladder"
+  },
+  {
+   "name": "extreme_poverty_share",
+   "source": "Our World in Data",
+   "id": "share-of-population-in-extreme-poverty",
+   "column": "population_historical",
+   "unit": "pct",
+   "unit_note": "%",
+   "rows": 54809,
+   "years": [
+    -10000,
+    2023
+   ],
+   "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"
+  },
+  {
+   "name": "extreme_poverty_share__headcount_ratio__ppp_version_2021__poverty_line_300__welfare_type_income_or_consumption__table_income_or_consumption_consolidated__survey_comparability_no_spells",
+   "source": "Our World in Data",
+   "id": "share-of-population-in-extreme-poverty",
+   "column": "headcount_ratio__ppp_version_2021__poverty_line_300__welfare_type_income_or_consumption__table_income_or_consumption_consolidated__survey_comparability_no_spells",
+   "unit": "pct",
+   "unit_note": "%",
+   "rows": 2537,
+   "years": [
+    1963,
+    2026
+   ],
+   "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"
+  },
+  {
+   "name": "homicide_rate",
+   "source": "Our World in Data",
+   "id": "homicide-rate-unodc",
+   "column": "value__category_total__sex_total__age_total__unit_of_measurement_rate_per_100_000_population",
+   "unit": "per_100k",
+   "unit_note": "homicides per 100,000 population",
+   "rows": 4356,
+   "years": [
+    1990,
+    2024
+   ],
+   "url": "https://ourworldindata.org/grapher/homicide-rate-unodc"
+  },
+  {
+   "name": "owid_fertility",
+   "source": "Our World in Data",
+   "id": "children-per-woman-un",
+   "column": "fertility_rate__sex_all__age_all__variant_estimates",
+   "unit": "births_per_woman",
+   "unit_note": "live births per woman",
+   "rows": 17908,
+   "years": [
+    1950,
+    2023
+   ],
+   "url": "https://ourworldindata.org/grapher/children-per-woman-un"
+  },
+  {
+   "name": "working_hours",
+   "source": "Our World in Data",
+   "id": "annual-working-hours-per-worker",
+   "column": "working_hours_omm",
+   "unit": "other",
+   "unit_note": "hours per worker",
+   "rows": 5063,
+   "years": [
+    1870,
+    2023
+   ],
+   "url": "https://ourworldindata.org/grapher/annual-working-hours-per-worker"
+  },
+  {
+   "name": "calories_per_day",
+   "source": "Our World in Data",
+   "id": "daily-per-capita-caloric-supply",
+   "column": "daily_calories",
+   "unit": "other",
+   "unit_note": "kilocalories per day",
+   "rows": 10417,
+   "years": [
+    1274,
+    2023
+   ],
+   "url": "https://ourworldindata.org/grapher/daily-per-capita-caloric-supply"
+  }
+ ],
+ "failed": []
+}
