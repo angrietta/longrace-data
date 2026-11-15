@@ -1,246 +1,6 @@
 {
- "fetched_at": "2026-11-08T21:48Z",
+ "fetched_at": "2026-11-15T22:35Z",
  "indicators": [
-  {
-   "name": "gdp_per_capita_usd",
-   "source": "World Bank",
-   "id": "NY.GDP.PCAP.CD",
-   "unit": "usd_nominal",
-   "rows": 11764,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD"
-  },
-  {
-   "name": "gdp_per_capita_ppp",
-   "source": "World Bank",
-   "id": "NY.GDP.PCAP.PP.CD",
-   "unit": "usd_ppp",
-   "rows": 7020,
-   "years": [
-    1990,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD"
-  },
-  {
-   "name": "gdp_usd",
-   "source": "World Bank",
-   "id": "NY.GDP.MKTP.CD",
-   "unit": "usd_nominal",
-   "rows": 11764,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
-  },
-  {
-   "name": "population",
-   "source": "World Bank",
-   "id": "SP.POP.TOTL",
-   "unit": "count",
-   "rows": 14292,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
-  },
-  {
-   "name": "life_expectancy",
-   "source": "World Bank",
-   "id": "SP.DYN.LE00.IN",
-   "unit": "years",
-   "rows": 14071,
-   "years": [
-    1960,
-    2024
-   ],
-   "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
-  },
-  {
-   "name": "fertility_rate",
-   "source": "World Bank",
-   "id": "SP.DYN.TFRT.IN",
-   "unit": "births_per_woman",
-   "rows": 14073,
-   "years": [
-    1960,
-    2024
-   ],
-   "url": "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN"
-  },
-  {
-   "name": "under5_mortality",
-   "source": "World Bank",
-   "id": "SH.DYN.MORT",
-   "unit": "per_1000",
-   "rows": 11861,
-   "years": [
-    1960,
-    2024
-   ],
-   "url": "https://data.worldbank.org/indicator/SH.DYN.MORT"
-  },
-  {
-   "name": "urban_share",
-   "source": "World Bank",
-   "id": "SP.URB.TOTL.IN.ZS",
-   "unit": "pct",
-   "rows": 14322,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS"
-  },
-  {
-   "name": "internet_users_share",
-   "source": "World Bank",
-   "id": "IT.NET.USER.ZS",
-   "unit": "pct",
-   "rows": 6224,
-   "years": [
-    1990,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
-  },
-  {
-   "name": "electricity_access",
-   "source": "World Bank",
-   "id": "EG.ELC.ACCS.ZS",
-   "unit": "pct",
-   "rows": 6747,
-   "years": [
-    1990,
-    2024
-   ],
-   "url": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS"
-  },
-  {
-   "name": "unemployment_rate",
-   "source": "World Bank",
-   "id": "SL.UEM.TOTL.ZS",
-   "unit": "pct",
-   "rows": 6531,
-   "years": [
-    1991,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS"
-  },
-  {
-   "name": "inflation",
-   "source": "World Bank",
-   "id": "FP.CPI.TOTL.ZG",
-   "unit": "pct",
-   "rows": 9151,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
-  },
-  {
-   "name": "exports_share_gdp",
-   "source": "World Bank",
-   "id": "NE.EXP.GNFS.ZS",
-   "unit": "pct",
-   "rows": 9029,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/NE.EXP.GNFS.ZS"
-  },
-  {
-   "name": "education_spending_gdp",
-   "source": "World Bank",
-   "id": "SE.XPD.TOTL.GD.ZS",
-   "unit": "pct",
-   "rows": 5125,
-   "years": [
-    1970,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
-  },
-  {
-   "name": "health_spending_gdp",
-   "source": "World Bank",
-   "id": "SH.XPD.CHEX.GD.ZS",
-   "unit": "pct",
-   "rows": 4562,
-   "years": [
-    2000,
-    2024
-   ],
-   "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
-  },
-  {
-   "name": "military_spending_gdp",
-   "source": "World Bank",
-   "id": "MS.MIL.XPND.GD.ZS",
-   "unit": "pct",
-   "rows": 8187,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
-  },
-  {
-   "name": "co2_per_capita_t",
-   "source": "World Bank",
-   "id": "EN.GHG.CO2.PC.CE.AR5",
-   "unit": "other",
-   "rows": 11165,
-   "years": [
-    1970,
-    2024
-   ],
-   "url": "https://data.worldbank.org/indicator/EN.GHG.CO2.PC.CE.AR5"
-  },
-  {
-   "name": "gini_index",
-   "source": "World Bank",
-   "id": "SI.POV.GINI",
-   "unit": "index",
-   "rows": 2434,
-   "years": [
-    1963,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SI.POV.GINI"
-  },
-  {
-   "name": "age65_share",
-   "source": "World Bank",
-   "id": "SP.POP.65UP.TO.ZS",
-   "unit": "pct",
-   "rows": 14322,
-   "years": [
-    1960,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS"
-  },
-  {
-   "name": "tertiary_enrollment",
-   "source": "World Bank",
-   "id": "SE.TER.ENRR",
-   "unit": "pct",
-   "rows": 5353,
-   "years": [
-    1970,
-    2025
-   ],
-   "url": "https://data.worldbank.org/indicator/SE.TER.ENRR"
-  },
   {
    "name": "owid_life_expectancy",
    "source": "Our World in Data",
@@ -396,5 +156,106 @@
    "url": "https://ourworldindata.org/grapher/daily-per-capita-caloric-supply"
   }
  ],
- "failed": []
+ "failed": [
+  {
+   "source": "worldbank",
+   "id": "NY.GDP.PCAP.CD",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "NY.GDP.PCAP.PP.CD",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "NY.GDP.MKTP.CD",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SP.POP.TOTL",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SP.DYN.LE00.IN",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SP.DYN.TFRT.IN",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SH.DYN.MORT",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SP.URB.TOTL.IN.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "IT.NET.USER.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "EG.ELC.ACCS.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SL.UEM.TOTL.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "FP.CPI.TOTL.ZG",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "NE.EXP.GNFS.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SE.XPD.TOTL.GD.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SH.XPD.CHEX.GD.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "MS.MIL.XPND.GD.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "EN.GHG.CO2.PC.CE.AR5",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SI.POV.GINI",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SP.POP.65UP.TO.ZS",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "source": "worldbank",
+   "id": "SE.TER.ENRR",
+   "error": "HTTP Error 502: Bad Gateway"
+  }
+ ]
 }
